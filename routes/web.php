@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\CustomerTest;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -23,3 +23,5 @@ Route::get('/index', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/test', [CustomerTest::class, 'test']);
+Route::get('/testdb', [CustomerTest::class, 'testdb']);
