@@ -10,4 +10,5 @@ cd /home/site/wwwroot && cp -n .env.example .env
 php artisan key:generate
 service nginx reload
 #cd /etc/nginx/sites-available && nano default
-# try_files $uri $uri/ /index.php?$args
+# try_files $uri $uri/ /index.php?$args;
+#cd /home/site/wwwroot/
