@@ -9,4 +9,4 @@ php artisan key:generate
 service nginx reload
 #cd /etc/nginx/sites-available && nano default
 # try_files $uri $uri/ /index.php?$args;
-#cd /home/site/wwwroot/
+# cd /home/site/wwwroot/
